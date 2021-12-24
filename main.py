@@ -235,4 +235,4 @@ def thumb(movie):
     thumbnail = movie['movie_thumb'] if movie['movie_thumb'] else None
     return thumbnail
     
- Bot.run()
+    Bot.run()
