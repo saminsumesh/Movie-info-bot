@@ -13,8 +13,8 @@ api_hash = os.environ["API_HASH"]
 
 Bot = Client(
 "Movie info bot",
-bot_token=bot_token
-api_id=api_id
+bot_token=bot_token,
+api_id=api_id,
 api_hash=api_hash
 )
 
