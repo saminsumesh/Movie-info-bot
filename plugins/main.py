@@ -66,7 +66,7 @@ async def cb_handler(bot, update):
         await update.message.edit_text(
             text=START_TXT.format(update.from_user.mention),
             reply_markup=START_BUTTON,
-            disable_web_page_preview=True
+            disable_web_page_preview=True            
         )
     
     elif update.data == "help":
@@ -100,7 +100,7 @@ async def start(bot, update):
     await update.reply_text(
     text=START_TXT.format(update.from_user.mention),
     reply_markup=START_BUTTON,
-    disable_web_preview=True
+    disable_web_page_preview=True
     )
     
 @Bot.on_message(filters.private & filters.command(["help"]))
@@ -108,7 +108,7 @@ async def help(bot, update):
     await update.reply_text(
     text=HELP_TXT.format(update.from_user.mention),
     reply_markup=HELP_BUTTON,
-    disable_web_preview=True
+    disable_web_page_preview=True
     )
     
 @Bot.on_message(filters.private & filters.command(["about"]))
@@ -116,7 +116,7 @@ async def about(bot, update):
     await update.reply_text(
     text=ABOUT_TXT.format(update.from_user.mention),
     reply_markup=ABOUT_BUTTON,
-    disable_web_preview=True
+    disable_web_page_preview=True
     )
     
 @Bot.on_message(filters.command(["movie"]), group=2)
