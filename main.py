@@ -96,7 +96,7 @@ async def cb_handler(bot, update):
 @Bot.on_callback_query()
 async def callback(bot, update):
     data = update.data
-    if data = "close"
+    if data = "close":
     update.message.delete()
 
 
