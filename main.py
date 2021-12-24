@@ -7,16 +7,6 @@ from requests.utils import requote_uri
 
 API = "https://api.sumanjay.cf/watch/query="
 
-bot_token = os.environ["BOT_TOKEN"]
-api_id = int(os.environ["API_ID"])
-api_hash = os.environ["API_HASH"]
-
-Bot = Client(
-    "Movie-Info-Bot",
-    bot_token=bot_token,
-    api_id=api_id,
-    api_hash=api_hash
-)
 
 START_TXT = """Hey {} , Iam an simple movie info bot , You can search any movie with me and i will provide you with correct and accurate details.
 
@@ -235,4 +225,4 @@ def thumb(movie):
     thumbnail = movie['movie_thumb'] if movie['movie_thumb'] else None
     return thumbnail
     
-    Bot.run()
+ 
