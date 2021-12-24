@@ -1,7 +1,7 @@
 # Movie-info-bot
 This is an simple pyrogram movie bot
 
-# These repositories are not made for showcasing my works , I just want to improve my coding skills 
+## These repositories are not made for showcasing my works , I just want to improve my coding skills 
 
 # Copyright 
 ```
