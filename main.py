@@ -12,10 +12,10 @@ api_id = int(os.environ["API_ID"])
 api_hash = os.environ["API_HASH"]
 
 Bot = Client(
-"Movie info bot",
-bot_token=bot_token,
-api_id=api_id,
-api_hash=api_hash
+    "Movie-Info-Bot",
+    bot_token=bot_token,
+    api_id=api_id,
+    api_hash=api_hash
 )
 
 START_TXT = """Hey {} , Iam an simple movie info bot , You can search any movie with me and i will provide you with correct and accurate details.
