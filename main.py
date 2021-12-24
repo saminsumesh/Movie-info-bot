@@ -97,7 +97,7 @@ async def cb_handler(bot, update):
 async def callback(bot, update):
     data = update.data
     if data = "close":
-    update.message.delete()
+       update.message.delete()
 
 
 @Bot.on_message(filters.private & filters.command(["start"]))
