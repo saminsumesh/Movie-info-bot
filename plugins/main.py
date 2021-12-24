@@ -165,7 +165,7 @@ async def get_movie(bot, update, name):
             )
         except:
             pass
-    keyboard.append(JOIN_BUTTONS)
+    keyboard.append(HELP_BUTTON)
     await update.reply_text(
         text="Select required option",
         reply_markup=InlineKeyboardMarkup(keyboard),
