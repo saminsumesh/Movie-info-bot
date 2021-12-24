@@ -3,7 +3,7 @@ import json
 import requests
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters
-from request.utils import reqoute_uri
+from requests.utils import reqoute_uri
 
 API = "https://api.sumanjay.cf/watch/query="
 
