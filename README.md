@@ -20,4 +20,4 @@ This is an simple pyrogram movie bot
 `All credits and rights goes to SaminSumesh`
 
 # Contact me 
-<a href="https://t.me/Paulwalker_TG>PaulWalker ✔</a>
+<a href="https://t.me/Paulwalker_TG">PaulWalker</a>
