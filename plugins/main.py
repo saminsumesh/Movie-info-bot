@@ -34,7 +34,7 @@ ABOUT_TXT = """
 👥 **Support Chat** = [XD Botz Support](https://t.me/xd_botzsupport")
 """
 
-START_BUTTONS = InlineKeyboardMarkup(
+START_BUTTON = InlineKeyboardMarkup(
      [[
      InlineKeyboardButton('Updates', url="https://t.me/XD_Botz"),
      InlineKeyboardButton('Support', url="https://t.me/xd_botzsupport")
