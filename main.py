@@ -103,7 +103,7 @@ async def callback(bot, update):
 @Bot.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_text(
-    text=START_TXT.format.(update.from_user.mention),
+    text=START_TXT.format(update.from_user.mention),
     reply_markup=START_BUTTON,
     disable_web_preview=True
     )
@@ -111,7 +111,7 @@ async def start(bot, update):
 @Bot.on_message(filters.private & filters.command(["help"]))
 async def help(bot, update):
     await update.reply_text(
-    text=HELP_TXT.format.(update.from_user.mention),
+    text=HELP_TXT.format(update.from_user.mention),
     reply_markup=HELP_BUTTON,
     disable_web_preview=True
     )
